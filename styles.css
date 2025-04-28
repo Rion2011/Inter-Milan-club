@@ -1,0 +1,55 @@
+body {
+    background-color: #000000; /* sfond i zi */
+    color: #00aaff; /* tekst ngjyrë kaltër */
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3 {
+    color: #00aaff; /* titujt ngjyrë kaltër */
+    text-align: center;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin: 20px;
+}
+
+img {
+    display: block;
+    margin: 20px auto;
+    border: 5px solid #00aaff; /* kufi kaltër rreth fotos */
+    border-radius: 10px;
+    max-width: 90%;
+    height: auto;
+}
+
+a {
+    color: #00aaff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+}
+footer {
+    background-color: #1540cf; /* sfond i zi */
+    color: #000000; /* tekst ngjyrë kaltër */
+    text-align: center;
+    padding: 20px 0;
+    border-radius: 15px;
+    margin-top: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+footer p {
+    margin: 0;
+}
